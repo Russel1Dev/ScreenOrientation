@@ -15,19 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8RI-DS-Qf8">
-                                <rect key="frame" x="41" y="56" width="342" height="355"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8RI-DS-Qf8">
+                                <rect key="frame" x="17" y="63" width="380" height="377.5"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ebw-Fl-2ME">
-                                <rect key="frame" x="41" y="477" width="342" height="353"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ebw-Fl-2ME">
+                                <rect key="frame" x="17" y="464.5" width="380" height="377.5"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Ebw-Fl-2ME" firstAttribute="width" secondItem="8RI-DS-Qf8" secondAttribute="width" id="XS4-TB-jxg"/>
-                            <constraint firstItem="Ebw-Fl-2ME" firstAttribute="height" secondItem="8RI-DS-Qf8" secondAttribute="height" multiplier="0.994366" id="x7c-ob-lkV"/>
+                            <constraint firstItem="Ebw-Fl-2ME" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="4OE-AJ-Ugz"/>
+                            <constraint firstItem="8RI-DS-Qf8" firstAttribute="height" secondItem="Ebw-Fl-2ME" secondAttribute="height" id="IUJ-Pk-Tne"/>
+                            <constraint firstItem="8RI-DS-Qf8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="19" id="OjL-LZ-XqP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ebw-Fl-2ME" secondAttribute="trailing" constant="17" id="R5B-fF-jFu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8RI-DS-Qf8" secondAttribute="trailing" constant="17" id="RmG-6g-Fcv"/>
+                            <constraint firstItem="Ebw-Fl-2ME" firstAttribute="top" secondItem="8RI-DS-Qf8" secondAttribute="bottom" constant="24" id="hYa-lR-Amx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ebw-Fl-2ME" secondAttribute="bottom" constant="20" id="i2F-lc-1nq"/>
+                            <constraint firstItem="8RI-DS-Qf8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="ntY-2a-MBu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
